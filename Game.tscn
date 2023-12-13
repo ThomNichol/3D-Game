@@ -19,6 +19,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5.08385)
 script = ExtResource("2_uio07")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, -0.0331551, 0.99945, 0, -0.99945, -0.0331551, 0, 8, 0)
+transform = Transform3D(1, 0, 0, 0, -0.0331551, 0.99945, 0, -0.99945, -0.0331551, -0.745704, 7.29415, -3.66156)
 
 [node name="World" parent="." instance=ExtResource("3_uvb1a")]
