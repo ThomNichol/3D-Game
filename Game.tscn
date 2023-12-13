@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://f3jgs4o66aki"]
+
+[ext_resource type="PackedScene" uid="uid://cnv8wlespjhvy" path="res://Player/player.tscn" id="1_drdk6"]
+[ext_resource type="Script" path="res://Player/player.gd" id="2_uio07"]
+[ext_resource type="PackedScene" uid="uid://c5tswx3k5y03c" path="res://world.tscn" id="3_uvb1a"]
+
+[sub_resource type="Environment" id="Environment_16dih"]
+background_mode = 2
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_energy = 6.0
+
+[node name="Game" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_16dih")
+
+[node name="Player" parent="." instance=ExtResource("1_drdk6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5.08385)
+script = ExtResource("2_uio07")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -0.0331551, 0.99945, 0, -0.99945, -0.0331551, 0, 8, 0)
+
+[node name="World" parent="." instance=ExtResource("3_uvb1a")]
