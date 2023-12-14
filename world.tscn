@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://c5tswx3k5y03c"]
+[gd_scene load_steps=18 format=3 uid="uid://c5tswx3k5y03c"]
 
 [ext_resource type="ArrayMesh" uid="uid://v476dhl8cvq8" path="res://Assets/Beach_Terrain_Sand_Corner_Inner_2x2.obj" id="1_fvhr2"]
 [ext_resource type="ArrayMesh" uid="uid://cnrdmln8e3ly4" path="res://Assets/Beach_Terrain_Sand_Corner_Inner_4x4.obj" id="2_rrm23"]
@@ -6,6 +6,10 @@
 [ext_resource type="ArrayMesh" uid="uid://d32tximq7fysk" path="res://Assets/Beach_Prop_Starfish_2.obj" id="4_k0omx"]
 [ext_resource type="ArrayMesh" uid="uid://cdqye81vqoldc" path="res://Assets/Beach_Prop_Coconut_1.obj" id="5_nahco"]
 [ext_resource type="ArrayMesh" uid="uid://3bcesm77trdq" path="res://Assets/Beach_Prop_Shell_1.obj" id="6_df1bv"]
+[ext_resource type="ArrayMesh" uid="uid://cd8ucjkagra7v" path="res://Assets/Beach_Terrain_Sand_Corner_Outer_4x4.obj" id="7_k6lcw"]
+[ext_resource type="ArrayMesh" uid="uid://dmgew4bimxe81" path="res://Assets/Beach_Terrain_Sand_Side_Shift_Gentle.obj" id="8_lp063"]
+[ext_resource type="ArrayMesh" uid="uid://bxrxya0r38xop" path="res://Assets/Beach_Terrain_Sand_Side_Shift_Sharp.obj" id="9_dgbj4"]
+[ext_resource type="ArrayMesh" uid="uid://b3q6bhmhw7jm7" path="res://Assets/Beach_Terrain_Sand_Transition_Gentle_Sharp_Centered.obj" id="10_54eyt"]
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_khc5m"]
 data = PackedVector3Array(-1.7473, 0.425, 0.5859, -0.5859, 0.425, 1.7473, -1.7426, 0.5, 1.7426, -1.7426, 0.5, 1.7426, -2.6962, 0.5, 0.5, -1.7473, 0.425, 0.5859, -2.6962, 0.5, 0.5, -3.2956, 0.5, -0.9471, -2.493, 0.425, -0.8777, -3.2956, 0.5, -0.9471, -3.5, 0.5, -2.5, -2.75, 0.425, -2.5, -2.493, 0.425, -0.8777, -3.2956, 0.5, -0.9471, -2.75, 0.425, -2.5, -2.493, 0.425, -0.8777, -1.7473, 0.425, 0.5859, -2.6962, 0.5, 0.5, 0.8777, 0.425, 2.493, -0.5, 0.5, 2.6962, -0.5859, 0.425, 1.7473, 0.8777, 0.425, 2.493, 2.5, 0.425, 2.75, 0.9471, 0.5, 3.2956, 0.9471, 0.5, 3.2956, 2.5, 0.425, 2.75, 2.5, 0.5, 3.5, -0.5, 0.5, 2.6962, 0.8777, 0.425, 2.493, 0.9471, 0.5, 3.2956, -1.7426, 0.5, 1.7426, -0.5859, 0.425, 1.7473, -0.5, 0.5, 2.6962, 0.8777, 0.425, 2.493, 2.5, 0.075, 1.25, 2.5, 0.425, 2.75, 1.0649, 0.075, 0.9645, 2.5, 0.075, 1.25, 0.8777, 0.425, 2.493, 1.0649, 0.075, 0.9645, 2.5, 0, 0.5, 2.5, 0.075, 1.25, 1.0649, 0.075, 0.9645, -0.1517, 0.075, 0.1517, 1, 0, 0.0981, -0.9645, 0.075, -1.0649, -0.0981, 0, -1, -0.1517, 0.075, 0.1517, -0.9645, 0.075, -1.0649, -1.25, 0.075, -2.5, -0.5, 0, -2.5, -0.5, 0, -2.5, -0.0981, 0, -1, -0.9645, 0.075, -1.0649, -0.0981, 0, -1, 1, 0, 0.0981, -0.1517, 0.075, 0.1517, 2.5, 0, 0.5, 1.0649, 0.075, 0.9645, 1, 0, 0.0981, -0.9645, 0.075, -1.0649, -2.493, 0.425, -0.8777, -1.25, 0.075, -2.5, -2.493, 0.425, -0.8777, -2.75, 0.425, -2.5, -1.25, 0.075, -2.5, -1.7473, 0.425, 0.5859, -2.493, 0.425, -0.8777, -0.9645, 0.075, -1.0649, -0.1517, 0.075, 0.1517, -1.7473, 0.425, 0.5859, -0.9645, 0.075, -1.0649, -0.5859, 0.425, 1.7473, -1.7473, 0.425, 0.5859, -0.1517, 0.075, 0.1517, -0.5859, 0.425, 1.7473, 1.0649, 0.075, 0.9645, 0.8777, 0.425, 2.493, -0.1517, 0.075, 0.1517, 1.0649, 0.075, 0.9645, -0.5859, 0.425, 1.7473, -2.5, 0.5, 2.5, -2.5, 0.5, 1.5, -1.5, 0.5, 2.5, -0.5, 0.5, 2.6962, -1.5, 0.5, 2.5, -1.7426, 0.5, 1.7426, 0.9471, 0.5, 3.2956, -1.5, 0.5, 3.5, -0.5, 0.5, 2.6962, 2.5, 0.5, 3.5, -1.5, 0.5, 3.5, 0.9471, 0.5, 3.2956, -1.5, 0.5, 3.5, -1.5, 0.5, 2.5, -0.5, 0.5, 2.6962, -2.5, 0.5, 1.5, -3.5, 0.5, 1.5, -2.6962, 0.5, 0.5, -3.5, 0.5, -2.5, -3.2956, 0.5, -0.9471, -3.5, 0.5, 1.5, -2.6962, 0.5, 0.5, -3.5, 0.5, 1.5, -3.2956, 0.5, -0.9471, -1.7426, 0.5, 1.7426, -2.5, 0.5, 1.5, -2.6962, 0.5, 0.5, -1.5, 0.5, 2.5, -2.5, 0.5, 1.5, -1.7426, 0.5, 1.7426)
@@ -95,3 +99,19 @@ mesh = ExtResource("1_fvhr2")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="BeachTerrainSandCornerInner2x3/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_6b8h2")
+
+[node name="BeachTerrainSandCornerOuter4x4" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.999796, -0.0189291, 0.00704977, -0.0197069, 0.990678, -0.134791, -0.00443257, -0.134903, -0.990849, -0.858153, 1.57735, 13.026)
+mesh = ExtResource("7_k6lcw")
+
+[node name="BeachTerrainSandSideShiftGentle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.11795, 0.0314941, 17.7636)
+mesh = ExtResource("8_lp063")
+
+[node name="BeachTerrainSandSideShiftSharp" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.80017, 0.0314941, 24.6309)
+mesh = ExtResource("9_dgbj4")
+
+[node name="BeachTerrainSandTransitionGentleSharpCentered" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.38022, 0.0314941, 21.5364)
+mesh = ExtResource("10_54eyt")
