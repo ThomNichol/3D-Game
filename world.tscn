@@ -152,7 +152,7 @@ mesh = ExtResource("1_fvhr2")
 shape = SubResource("ConcavePolygonShape3D_6b8h2")
 
 [node name="BeachTerrainSandCornerOuter4x4" type="MeshInstance3D" parent="."]
-transform = Transform3D(-0.999796, -0.0189291, 0.00704977, -0.0197069, 0.990678, -0.134791, -0.00443257, -0.134903, -0.990849, -0.858153, 1.57735, 13.026)
+transform = Transform3D(-0.994712, 0.102415, 0.00773887, 0.102457, 0.994724, 0.0052135, -0.00716409, 0.00597824, -0.999957, -0.858153, 0.785009, 12.9565)
 mesh = ExtResource("7_k6lcw")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BeachTerrainSandCornerOuter4x4"]
@@ -206,7 +206,7 @@ mesh = ExtResource("12_ahbnc")
 shape = SubResource("ConcavePolygonShape3D_2f1w0")
 
 [node name="HillyTerrainHillCornerInner3x3" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.123823, -1.44809, -0.686967, 0.118374, 1.37948, -0.721634, 1.99265, 0.00803526, 0.0855571, 11.2462, 1.92913, 13.6293)
+transform = Transform3D(0.423748, -0.544448, -0.938617, 0.459879, 1.89469, -0.222852, 1.89972, -0.337218, 0.263314, 11.3037, 1.87963, 13.7657)
 mesh = ExtResource("13_1bhwp")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="HillyTerrainHillCornerInner3x3"]
@@ -233,7 +233,7 @@ mesh = ExtResource("15_vvkg2")
 shape = SubResource("ConcavePolygonShape3D_qfipo")
 
 [node name="HillyTerrainPathCornerOuter4x5" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.98431, 0.0348704, -0.172969, -0.0183214, 0.995177, 0.0963656, 0.175495, -0.0916845, 0.980202, 12.7696, 2.6072, 20.696)
+transform = Transform3D(0.98431, 0.0348704, -0.172969, -0.0183214, 0.995177, 0.0963656, 0.175495, -0.0916845, 0.980202, 12.7696, 1.26759, 20.696)
 mesh = ExtResource("15_vvkg2")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="HillyTerrainPathCornerOuter4x5"]
@@ -242,7 +242,7 @@ mesh = ExtResource("15_vvkg2")
 shape = SubResource("ConcavePolygonShape3D_fc1tb")
 
 [node name="HillyTerrainPathCornerOuter1x1" type="MeshInstance3D" parent="."]
-transform = Transform3D(4.96722, 0.0491665, -0.103216, -0.258371, 0.998427, -0.021763, 0.50992, 0.0269539, 0.994421, 15.6189, 2.46721, 21.8964)
+transform = Transform3D(-4.66793, 0.111337, 0.340623, 0.427736, 0.992273, -0.0898681, -1.73999, -0.0547601, -0.935895, 17.122, 1.1454, 23.6315)
 mesh = ExtResource("16_q1leo")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="HillyTerrainPathCornerOuter1x1"]
@@ -256,5 +256,5 @@ size = Vector3(22.3502, 20, 31.887)
 data = SubResource("VoxelGIData_p4iak")
 
 [node name="BeachPropTreasureChest" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.19379, 0.329888, 0.923915, -0.0677201, 0.94402, -0.322863, -0.978703, 0, 0.205282, 13.9773, 0.579818, 17.2792)
+transform = Transform3D(0.102109, -0.0508409, 0.486815, 0.0104366, 0.497409, 0.0497581, -0.489352, -8.19564e-08, 0.102641, 14.0326, 0.623228, 17.217)
 mesh = ExtResource("17_o5ihs")
