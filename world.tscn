@@ -131,7 +131,7 @@ transform = Transform3D(0.0320387, 0, 0.999487, 0, 1, 0, -0.999487, 0, 0.0320387
 mesh = ExtResource("12_ahbnc")
 
 [node name="HillyTerrainHillCornerInner3x3" type="MeshInstance3D" parent="."]
-transform = Transform3D(-0.0063096, -0.545103, -0.838345, 0.117174, 0.832184, -0.541978, 0.993092, -0.101652, 0.0586209, 9.90286, 2.3403, 11.0522)
+transform = Transform3D(0.123823, -1.44809, -0.686967, 0.118374, 1.37948, -0.721634, 1.99265, 0.00803526, 0.0855571, 11.2462, 1.92913, 13.6293)
 mesh = ExtResource("13_1bhwp")
 
 [node name="HillyTerrainPathCornerOuter3x3" type="MeshInstance3D" parent="."]
@@ -147,5 +147,8 @@ transform = Transform3D(0.98431, 0.0348704, -0.172969, -0.0183214, 0.995177, 0.0
 mesh = ExtResource("15_vvkg2")
 
 [node name="HillyTerrainPathCornerOuter1x1" type="MeshInstance3D" parent="."]
-transform = Transform3D(4.92924, 0.272395, 0.792686, -0.275884, 4.99238, 0, -0.791478, -0.0437378, 4.93676, 18.9502, -0.776277, 24.3748)
+transform = Transform3D(4.96722, 0.0491665, -0.103216, -0.258371, 0.998427, -0.021763, 0.50992, 0.0269539, 0.994421, 15.6189, 2.46721, 21.8964)
 mesh = ExtResource("16_q1leo")
+
+[node name="VoxelGI" type="VoxelGI" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.12269, 0, 23.3342)
